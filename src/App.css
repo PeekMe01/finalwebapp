@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -35,4 +37,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Buttonadd{
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #85ff9d;
+  border-collapse: collapse;
+  border-style: solid;
+  border-color: #85ff9d;
+  width: 100%;
+}
+.Buttonadd:hover{
+  background-color: #4a9458;
+  border-color: #4a9458;
 }
